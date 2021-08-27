@@ -1,9 +1,25 @@
-
+* {
+    font-family: 'Rampart One', cursive;
+}
 
 body {
-   background-color: rgb(166, 219, 206); 
+   background-color: rgb(171, 199, 192); 
+}
+
+nav {
+    
 }
 
 h1 {
-    background-color: blanchedalmond;
+    padding: 10px;
+    /* background-color: rgb(118, 209, 202); */
+    border-bottom: 5px groove black;
+}
+
+.btn {
+    font-family: 'Rampart One', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
