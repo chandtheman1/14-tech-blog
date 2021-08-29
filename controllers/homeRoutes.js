@@ -12,14 +12,19 @@ router.get('/', async (req, res) => {
         ],
     });
 
+    // const blogs = blogData.map(blog => {
+    //     blog.get({ plain: true })
+    // })
+
     const blogs = blogData.map(blog => {
-        blog.get({ plain: true })
+        return blog.dataValues
     })
 
     res.render('homepage', {
         blogs
     });
-    // res.json(blogData);
+    // console.log(blogData[0].dataValues);
+    // console.log(blogs);
 });
 
 module.exports = router;
