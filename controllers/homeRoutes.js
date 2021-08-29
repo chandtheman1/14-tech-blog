@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
     })
 
     res.render('homepage', {
-        blogData
+        blogs
     });
     // res.json(blogData);
 });
