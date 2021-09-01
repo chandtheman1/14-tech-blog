@@ -26,6 +26,14 @@ Comment.init(
                 key: "id"
             },
             onDelete: "cascade"
+        },
+        user_id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            references: {
+                model: 'user',
+                key: "id"
+            },
         }
     },
     {
