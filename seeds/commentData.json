@@ -1,0 +1,14 @@
+[
+    {
+        "comment_text": "This is a cool Blog",
+        "blog_id": 1
+    },
+    {
+        "comment_text": "Wow i learned a lot",
+        "blog_id": 1
+    },
+    {
+        "comment_text": "Much cool, much wow",
+        "blog_id": 2
+    }
+]
