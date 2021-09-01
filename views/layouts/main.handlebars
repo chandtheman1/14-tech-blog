@@ -15,10 +15,12 @@
 
 <body class="container">
     <nav>
-        <button class="btn">Home</button>
+        <a href="/">Home</a>
         <button class="btn">Dashboard</button>
-        <button class="btn">Login</button>
-        <button class="btn">Logout</button>
+        <a href="/login">Login</a>
+        {{#if loggedIn}}
+        <button class="btn" id="logout">Logout</button>
+        {{/if}}
     </nav>
     <main class="container">
         {{{body}}}
