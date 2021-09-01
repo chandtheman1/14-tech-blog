@@ -1,0 +1,16 @@
+<h1>Edit Blog</h1>
+
+
+
+ <form class="edit-form">
+    <div>
+        <input class="form-input" type="text" name="blog-title" value="{{editBlog.title}}" id="blog-title"/>
+        <textarea class="form-textarea" name="blog-content" id="blog-content">{{editBlog.content}}</textarea>
+    </div>
+
+
+    <button class="btn" type="submit">Update Blog</button>
+    <button class="btn delete-blog-btn" type="button">Delete Blog</button>
+</form>
+
+<script src="/js/edit.js"></script>

@@ -1,0 +1,12 @@
+<h1>Dashboard</h1>
+
+{{#each personalBlogs as |blog|}}
+<section class="card">
+    <a href="/dashboard/edit/{{blog.id}}">
+        <h2>{{blog.title}}</h2>
+        <p>{{blog.content}}</p>
+    </a>
+</section>
+{{/each}}
+
+<a href="/dashboard/create">Create Blog</a>

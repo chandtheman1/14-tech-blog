@@ -68,6 +68,16 @@ router.get("/:id", async (req, res) => {
 
 });
 
+router.post("/", async (req, res) => {
+    const newBlog = await Blog.create({
+        title: req.body.title,
+        content: req.body.content,
+        user_id: req.session.user_id
+    });
+
+    res.json(newBlog);
+});
+
 router.put("/:id", async (req, res) => {
     const newBlogData = await Blog.update(
         {
