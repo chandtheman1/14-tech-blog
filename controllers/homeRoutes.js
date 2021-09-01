@@ -17,7 +17,8 @@ router.get('/', async (req, res) => {
     })
 
     res.render('homepage', {
-        blogs
+        blogs, 
+        loggedIn: req.session.loggedIn
     });
 
 });
