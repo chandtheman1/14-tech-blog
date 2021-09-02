@@ -18,7 +18,7 @@ const sess = {
     secret: 'Super secret secret',
     cookie: {
       //cookie lasts for one day before the session expires
-      maxAge: 86400,
+      // maxAge: 86400,
     },
     resave: false,
     saveUninitialized: true,

@@ -13,9 +13,7 @@ router.get('/', async (req, res) => {
         ],
     });
 
-    const blogs = blogData.map(blog => {
-        return blog.dataValues
-    })
+    const blogs = blogData.map(blog => blog.get({plain: true}));
 
     res.render('homepage', {
         blogs, 

@@ -6,14 +6,45 @@ body {
    background-color: rgb(171, 199, 192); 
 }
 
-nav {
-    
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
 }
 
 h1 {
     padding: 10px;
     /* background-color: rgb(118, 209, 202); */
     border-bottom: 5px groove black;
+}
+
+h3 {
+    border-bottom: 2px groove black;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 5px;
+}
+
+div {
+    margin: 10px;
+}
+
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.card {
+    background-color: #c7b0ab;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 .btn {
@@ -26,4 +57,13 @@ h1 {
 
 .card {
     margin: 10px;
+}
+
+#blog-title {
+    font-family: 'Rampart One', cursive;
+}
+
+a:hover {
+    box-shadow: black 10px 10px;
+    color: black;
 }
