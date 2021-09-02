@@ -1,12 +1,22 @@
 # Tech Blog
 
-A blog application for new tech.
+A blog application for authenticated users. Authenticated users can create/update and comment blogs.
 
 ## Live
 
 [Live link](https://techblog-chand.herokuapp.com/)
 
+### Homepage
+
 ![homepage](./public/images/homepage.png)
+
+### Dashboard
+
+![dashboard](./public/images/dashboard.png)
+
+### Login
+
+![login](./public/images/login.png)
 
 ## User Story
 
@@ -16,21 +26,19 @@ I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
-## How to use it
+## If checked out
 
 Must have a .env file that contains the following:
 
 >DB_USER=
 >DB_PW=
->DB_NAME='ecommerce_db'
+>DB_NAME='blog_db'
 
 `npm install` to install dependencies.
 
 `npm run seed` to seed example database.
 
-OR 
-
-Use the live link.
+`npm start` to start the server
 
 ## Technology Used
 
