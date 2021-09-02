@@ -2,8 +2,9 @@
 
 {{#each blogs as |blog|}}
 <section class="card">
-    <h2>{{blog.title}}</h2>
-    <p></p>
-    <p>{{blog.content}}</p>
+    <a href="/blog/{{blog.id}}">
+        <h2>{{blog.title}}</h2>
+        <p>{{blog.content}}</p>
+    </a> 
 </section>
 {{/each}}
